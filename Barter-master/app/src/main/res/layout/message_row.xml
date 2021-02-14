@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="2dp"
+    android:padding="5dp">
+
+
+    <TextView
+        android:id="@+id/sender_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="150dp"
+        android:text="TextView"
+        android:textColor="?android:attr/colorPressedHighlight"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/select_to_chat_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="6dp"
+
+        android:layout_marginBottom="0dp"
+        android:text="Chat"
+        app:layout_constraintBottom_toBottomOf="@+id/sender_name"
+        app:layout_constraintTop_toBottomOf="@+id/sender_name"
+        app:layout_constraintVertical_bias="0.2"
+        android:layout_marginLeft="220dp"
+        android:layout_marginRight="80dp" />
+
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Barter</string>
+    <string name="action_sign_in_short">SignIn</string>
+    <string name="action_register">Register</string>
+    <string name="prompt_email">yourmail@mail.com</string>
+    <string name="prompt_password">Password</string>
+    <string name="name">Name</string>
+    <string name="uploadPhoto">Upload Photo</string>
+    <string name="postText">Post Text</string>
+    <string name="uploadPost">Post</string>
+    <string name="details">Details about post</string>price
+    <string name="price">Price</string>getLocation
+    <string name="chatWithSeller">Chat Seller</string>
+    <string name="getLocation">Get Location</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
